@@ -4,38 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Landing-page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <div class="logo-section">
-                <img src="../foundation-landing-page/oman-logo.png" alt="logo">
+            <div class="header-flex">
+                <div class="logo-section">
+                    <img src="../foundation-landing-page/images/oman-logo.png" alt="BeHappyTravels">
+                </div>
+                <div class="links-section">
+                    <a href="">What we do</a>
+                    <a href="">All destinations</a>
+                    <a href="">Contacts</a>
+                </div>
             </div>
-            <div class="links-section">
-                <a href="">News</a>
-                <a href="">Lifestyle</a>
-                <a href="">Social Media</a>
-            </div>
-        
             <div class="subheader">
                 <div class="subheader-description">
-                    <h2>Sultanate of Oman</h2>
-                    <p>some information here..</p>
-                    <button type="button">More..</button>
+                    <h2>Discover Oman</h2>
+                    <p>Discover the most unexplored and beautiful places in Sultanate of Oman</p>
+                    <button type="button">Explore More..</button>
                 </div>
                 <div class="image-container">
-                    <img src="../foundation-landing-page/map.jpg" alt="Oman">
+                    <img src="../foundation-landing-page/images/map.jpg" alt="Oman">
                 </div>
             </div>
         </header>
         <main>
-            <section></section>
-            <section></section>
-            <section></section>
+            <section class="container my-5">
+                <h2 class="text-center">Some random info</h2>
+                <div class="row mt-3 col-gap">
+                    <div class="card col-sm py-3">
+                        <img class="card-img-top" src="../foundation-landing-page/images/map.jpg" alt=""/>
+                        <p class="card-text text-center pt-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                    <div class="card col-sm py-3">
+                        <img class="card-img-top" src="../foundation-landing-page/images/map.jpg" alt=""/>
+                        <p class="card-text text-center pt-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                    <div class="card col-sm py-3">
+                        <img class="card-img-top" src="../foundation-landing-page/images/map.jpg" alt=""/>
+                        <p class="card-text text-center pt-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                    <div class="card col-sm py-3">
+                        <img class="card-img-top" src="../foundation-landing-page/images/map.jpg" alt=""/>
+                        <p class="card-text text-center pt-3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card p-3 text-right">
+                    <p>some quote here</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">Lorem ipsum lorem ipsum lorem </small>
+                    </footer>
+                </div>
+            </section>
+            <section class="card">
+                <div class="bottom-left">
+                    <h3>It's time for adventure</h3>
+                    <p>Contact us to know more information about this trip</p>
+                </div>
+                <div class="bottom-right">
+                    <button class="btn btn-primary" id="btn-book">I want to book</button>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <p> Copyright © 2022 BeHappyTravels</p>
+        </footer>
     </div>    
 </body>
 </html>

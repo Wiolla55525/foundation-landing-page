@@ -4,21 +4,38 @@ body{
 .wrapper {
     font-family: Arial, Helvetica, sans-serif;
 }
-header, .subheader, .subheader-description {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(../foundation-landing-page/background-header.jpg) no-repeat center center fixed;
+.header-flex{
+    background: linear-gradient( #a58967, #5b4121);
+}
+.subheader {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(../foundation-landing-page/images/bcgrnd-img.jpg) no-repeat center ;
     background-size: cover; 
     color: #f9faf8;
-    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 40px white; 
+    text-shadow: 0px 0px 40px white; 
 }
 .logo-section img{
     width: 100px;
     height: auto;
 }
 .image-container img {
-    width: 200px;
-    height: 250px;
+    width: 333px;
 }
 .links-section a {
     text-decoration: wavy;
     color: #f9faf8;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+}
+.subheader{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9vh 3vh 24vh;
+}
+
+.col-gap {
+    gap: 1rem;
 }
