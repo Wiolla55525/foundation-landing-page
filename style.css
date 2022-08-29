@@ -1,17 +1,20 @@
-body{
+body {
     width: 100%;
 }
+
 .wrapper {
     font-family: Arial, Helvetica, sans-serif;
 }
-.header-flex{
+
+.header-flex {
     background: linear-gradient( #a58967, #965050);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .subheader {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(../foundation-landing-page/images/bcgrnd-img.jpg) no-repeat center ;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(./images/bcgrnd-img.jpg) no-repeat center ;
     background-size: cover; 
     color: #f9faf8;
     text-shadow: 0px 0px 40px white; 
@@ -19,7 +22,8 @@ body{
     justify-content: space-evenly;
     padding: 9vh 3vh 15vh;
 }
-.subheader-description{
+
+.subheader-description {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -27,26 +31,33 @@ body{
     width: 50%;
     gap: 40px;
 }
-#welcome-word{
+
+#welcome-word {
     width: 100%;
 }
-.slash{
+
+.slash {
     margin: 0 30%;
 }
-.logo-section img{
+
+.logo-section img {
     width: 90px;
     height: auto;
 }
-.logo-section{
+
+.logo-section {
     padding-left: 7vh;
 }
+
 .image-container img {
     width: 333px;
 }
+
 .links-section a {
     text-decoration: wavy;
     color: #f9faf8;
 }
+
 .links-section {
     padding: 2vh;
     display: flex;
@@ -57,12 +68,15 @@ body{
     gap: 5vh;
     padding-right: 10vh;
 }
-#social_transparent{
+
+#social_transparent {
     width: 50px;;
 }
+
 .col-gap {
     gap: 1rem;
 }
+
 #explore-btn {
     background-color: #cda57b;
     border: none;
@@ -77,18 +91,22 @@ body{
     text-decoration: none;
     cursor: pointer;
     border-radius: 15px;
-}  
+}
+
 #explore-btn:hover {
     opacity: 0.8;
 }
-#advertisement-card{
+
+#advertisement-card {
     background-color: #9a5f56;
     opacity: 0.9;
 }
-#card-section p{
+
+#card-section p {
     font-size: 13px;
 }
-.card-title{
+
+.card-title {
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 5px;
