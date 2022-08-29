@@ -17,13 +17,21 @@ body{
     text-shadow: 0px 0px 40px white; 
     display: flex;
     justify-content: space-evenly;
-    padding: 9vh 3vh 24vh;
+    padding: 9vh 3vh 15vh;
 }
 .subheader-description{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    width: 50%;
+    gap: 40px;
+}
+#welcome-word{
+    width: 100%;
+}
+.slash{
+    margin: 0 50%;
 }
 .logo-section img{
     width: 90px;
@@ -72,4 +80,15 @@ body{
 }  
 #explore-btn:hover {
     opacity: 0.8;
+}
+#advertisement-card{
+    background-color: #9a5f56;
+}
+#card-section p{
+    font-size: 13px;
+}
+.card-title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
 }
