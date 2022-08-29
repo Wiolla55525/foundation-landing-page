@@ -31,7 +31,7 @@ body{
     width: 100%;
 }
 .slash{
-    margin: 0 50%;
+    margin: 0 30%;
 }
 .logo-section img{
     width: 90px;
@@ -83,6 +83,7 @@ body{
 }
 #advertisement-card{
     background-color: #9a5f56;
+    opacity: 0.9;
 }
 #card-section p{
     font-size: 13px;
