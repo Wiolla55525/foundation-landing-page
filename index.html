@@ -13,19 +13,20 @@
         <header>
             <div class="header-flex">
                 <div class="logo-section">
-                    <img src="../foundation-landing-page/images/oman-logo.png" alt="BeHappyTravels">
+                    <img src="../foundation-landing-page/images/logo_transparent.png" alt="BeHappyTravels">
                 </div>
                 <div class="links-section">
                     <a href="">What we do</a>
                     <a href="">All destinations</a>
                     <a href="">Contacts</a>
+                    <a href=""><img src="../foundation-landing-page/images/social.png" id="social_transparent"></a>
                 </div>
             </div>
             <div class="subheader">
                 <div class="subheader-description">
                     <h2>Discover Oman</h2>
                     <p>Discover the most unexplored and beautiful places in Sultanate of Oman</p>
-                    <button type="button">Explore More..</button>
+                    <button type="button" id="explore-btn">Explore More..</button>
                 </div>
                 <div class="image-container">
                     <img src="../foundation-landing-page/images/map.jpg" alt="Oman">
@@ -34,7 +35,7 @@
         </header>
         <main>
             <section class="container my-5">
-                <h2 class="text-center">Some random info</h2>
+                <h2 class="text-center pb-3">Some random info</h2>
                 <div class="row mt-3 col-gap">
                     <div class="card col-sm py-3">
                         <img class="card-img-top" src="../foundation-landing-page/images/map.jpg" alt=""/>
@@ -54,26 +55,32 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="card p-3 text-right">
-                    <p>some quote here</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">Lorem ipsum lorem ipsum lorem </small>
-                    </footer>
+            <section class="bg-light">
+                <div class="container py-5 font-italic">
+                    <p class="h5 mt-2 text-muted text-justify">Phasellus nec auctor nibh. Integer elementum tortor ut elit aliquet cursus. Nulla rutrum venenatis imperdiet. Phasellus blandit nec metus ut placerat. Sed ultrices pellentesque felis eget sollicitudin.  Etiam iaculis dolor vitae metus tincidunt, in ornare nunc interdum.</p>
+                    <p class="text-right">
+                        <small class="font-weight-bold">- Lorem ipsum lorem ipsum lorem </small>
+                    </p>
                 </div>
             </section>
-            <section class="card">
-                <div class="bottom-left">
-                    <h3>It's time for adventure</h3>
-                    <p>Contact us to know more information about this trip</p>
-                </div>
-                <div class="bottom-right">
-                    <button class="btn btn-primary" id="btn-book">I want to book</button>
+            <section class="container py-5">
+                <div class="card bg-primary text-white px-5 py-4">
+                    <div class="row container">
+                        <div class="col-sm-9">
+                            <h5>It's time for adventure</h5>
+                            <small>Contact us to know more information about this trip</small>
+                        </div>
+                        <div class="align-self-center col-sm-3 d-flex justify-content-end">
+                            <button class="btn btn-outline-light btn-sm" id="btn-book">I want to book</button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer>
-            <p> Copyright © 2022 BeHappyTravels</p>
+        <footer class="bg-dark text-white py-3">
+            <div class="container text-center">
+                <small>Copyright © 2022 BeHappyTravels</small>
+            </div>
         </footer>
     </div>    
 </body>

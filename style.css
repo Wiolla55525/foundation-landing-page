@@ -5,17 +5,32 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .header-flex{
-    background: linear-gradient( #a58967, #5b4121);
+    background: linear-gradient( #a58967, #965050);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .subheader {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(../foundation-landing-page/images/bcgrnd-img.jpg) no-repeat center ;
     background-size: cover; 
     color: #f9faf8;
     text-shadow: 0px 0px 40px white; 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9vh 3vh 24vh;
+}
+.subheader-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 .logo-section img{
-    width: 100px;
+    width: 90px;
     height: auto;
+}
+.logo-section{
+    padding-left: 7vh;
 }
 .image-container img {
     width: 333px;
@@ -24,18 +39,37 @@ body{
     text-decoration: wavy;
     color: #f9faf8;
 }
-.header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.links-section {
     padding: 2vh;
-}
-.subheader{
     display: flex;
-    justify-content: space-evenly;
-    padding: 9vh 3vh 24vh;
+    justify-content: flex-end;
+    width: 65%;
+    align-items: center;
+    align-content: center;
+    gap: 5vh;
+    padding-right: 10vh;
 }
-
+#social_transparent{
+    width: 50px;;
+}
 .col-gap {
     gap: 1rem;
+}
+#explore-btn {
+    background-color: #cda57b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+}  
+#explore-btn:hover {
+    opacity: 0.8;
 }
